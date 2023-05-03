@@ -544,8 +544,9 @@ but5_4.onclick = () => {
 const res5 = document.getElementById('res5')
 const pergunta5 = document.getElementById('pergunta5')
 
-function somarPonto(pontuacao = 0){
-    pontuacao++
+var pontuacao = 0
+function somarPonto(){
+    pontuacao+= 10
 
     let pontuacaoElement = document.getElementById('pont')
     pontuacaoElement.textContent = `pontuação: ${pontuacao}`
