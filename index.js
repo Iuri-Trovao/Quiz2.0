@@ -381,7 +381,7 @@ but4_2.onclick = () => {
     res4.style.fontSize = 'x-large'
     res4.style.padding = '50px'
 
-    somarPonto4()
+    somarPonto()
 }
 const but4_3 = document.getElementById('4but3')
 but4_3.onclick = () => {
