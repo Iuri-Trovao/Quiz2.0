@@ -468,7 +468,7 @@ but5_1.onclick = () => {
 }
 
 const but5_2 = document.getElementById('5but2')
-but5_1.onclick = () => {
+but5_2.onclick = () => {
     // CONFIGURAÇÕES DOS BOTTÕES
     but5_1.disabled = true 
     but5_1.style.background = 'red'
